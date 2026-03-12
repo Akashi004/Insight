@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "username": "demo.user",
+      "password": "Pass@123",
+      "fullName": "Jordan Rivera",
+      "isInvesting": false
+    },
+    {
+      "username": "alex.morgan",
+      "password": "Secure!456",
+      "fullName": "Alex Morgan",
+      "isInvesting": true
+    }
+  ],
+  "accounts": [
+    {
+      "id": "acc_sav_1",
+      "name": "Primary Savings",
+      "type": "savings",
+      "balance": 14850.42,
+      "currency": "USD"
+    },
+    {
+      "id": "acc_deb_1",
+      "name": "Daily Debit",
+      "type": "debit",
+      "balance": 2430.77,
+      "currency": "USD"
+    },
+    {
+      "id": "acc_cc_1",
+      "name": "Rewards Credit",
+      "type": "credit",
+      "balance": -860.15,
+      "currency": "USD"
+    }
+  ],
+  "transactions": [
+    {"id":"tx001","accountID":"acc_deb_1","date":"2026-01-03T10:35:00Z","amount":-32.15,"merchant":"Fresh Bowl","category":"food","note":"Lunch"},
+    {"id":"tx002","accountID":"acc_deb_1","date":"2026-01-05T15:11:00Z","amount":-89.99,"merchant":"City Utilities","category":"utilities","note":"Electric bill"},
+    {"id":"tx003","accountID":"acc_deb_1","date":"2026-01-08T08:01:00Z","amount":3200.00,"merchant":"Acme Payroll","category":"salary","note":"January paycheck"},
+    {"id":"tx004","accountID":"acc_cc_1","date":"2026-01-09T19:22:00Z","amount":-58.40,"merchant":"StreamFlix","category":"subscription","note":"Family plan"},
+    {"id":"tx005","accountID":"acc_cc_1","date":"2026-01-14T20:15:00Z","amount":-124.89,"merchant":"FlyAway","category":"travel","note":"Weekend trip"},
+    {"id":"tx006","accountID":"acc_sav_1","date":"2026-01-15T07:00:00Z","amount":-500.00,"merchant":"Auto Transfer","category":"transfer","note":"Monthly savings move"},
+    {"id":"tx007","accountID":"acc_deb_1","date":"2026-02-02T12:10:00Z","amount":-40.20,"merchant":"Green Spoon","category":"food","note":"Lunch"},
+    {"id":"tx008","accountID":"acc_cc_1","date":"2026-02-03T06:45:00Z","amount":-16.99,"merchant":"SoundWave","category":"subscription","note":"Music plan"},
+    {"id":"tx009","accountID":"acc_deb_1","date":"2026-02-06T16:05:00Z","amount":-72.44,"merchant":"Market Square","category":"shopping","note":"Household items"},
+    {"id":"tx010","accountID":"acc_deb_1","date":"2026-02-08T08:03:00Z","amount":3200.00,"merchant":"Acme Payroll","category":"salary","note":"February paycheck"},
+    {"id":"tx011","accountID":"acc_cc_1","date":"2026-02-10T18:20:00Z","amount":-65.00,"merchant":"FitPlus","category":"health","note":"Gym membership"},
+    {"id":"tx012","accountID":"acc_cc_1","date":"2026-02-16T22:10:00Z","amount":-240.35,"merchant":"SkyJet","category":"travel","note":"Conference flight"},
+    {"id":"tx013","accountID":"acc_deb_1","date":"2026-03-01T11:45:00Z","amount":-92.33,"merchant":"Urban Eats","category":"food","note":"Group brunch"},
+    {"id":"tx014","accountID":"acc_cc_1","date":"2026-03-03T07:40:00Z","amount":-17.99,"merchant":"SoundWave","category":"subscription","note":"Music plan"},
+    {"id":"tx015","accountID":"acc_cc_1","date":"2026-03-03T07:42:00Z","amount":-22.50,"merchant":"Readly","category":"subscription","note":"Magazine app"},
+    {"id":"tx016","accountID":"acc_deb_1","date":"2026-03-04T17:27:00Z","amount":-210.90,"merchant":"Fresh Market","category":"food","note":"Weekly groceries"},
+    {"id":"tx017","accountID":"acc_deb_1","date":"2026-03-08T08:00:00Z","amount":3200.00,"merchant":"Acme Payroll","category":"salary","note":"March paycheck"},
+    {"id":"tx018","accountID":"acc_cc_1","date":"2026-03-09T22:31:00Z","amount":-188.00,"merchant":"City Bistro","category":"food","note":"Dining out"},
+    {"id":"tx019","accountID":"acc_cc_1","date":"2026-03-12T09:35:00Z","amount":-640.00,"merchant":"Cloud Airlines","category":"travel","note":"Holiday booking"},
+    {"id":"tx020","accountID":"acc_deb_1","date":"2026-03-14T14:19:00Z","amount":-73.20,"merchant":"HomePower","category":"utilities","note":"Gas bill"},
+    {"id":"tx021","accountID":"acc_cc_1","date":"2026-03-15T20:05:00Z","amount":-49.99,"merchant":"MovieHub","category":"entertainment","note":"Annual pass"},
+    {"id":"tx022","accountID":"acc_sav_1","date":"2026-03-16T07:00:00Z","amount":-600.00,"merchant":"Auto Transfer","category":"transfer","note":"Increased savings"}
+  ]
+}
